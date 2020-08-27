@@ -1,0 +1,25 @@
+.content{
+  border-radius: 10px;
+  background: rgba(20, 23, 241, 0.602);
+  transition: all .5s linear;
+}
+.content:hover{
+  box-shadow: -5px 10px 20px 0 rgba(0,0,0,.7);
+}
+.content img{
+  width: 100%;
+  border-radius: 10px;
+  height: 200px;
+}
+
+
+@media (min-width: 481px) and (max-width: 768px){
+  .content{
+    width: 28vw;
+  }
+}
+@media (min-width: 769px){
+  .content{
+    width: 20vw;
+  }
+}

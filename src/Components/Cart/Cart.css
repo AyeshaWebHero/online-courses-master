@@ -1,0 +1,30 @@
+.cart{
+  width: 25%;
+  height: 22%;
+  color:white;
+  margin-top: 10rem;
+  box-shadow: -5px 5px 20px 0 rgba(0,0,0,.5);
+  /* background: rgb(211, 226, 245); */
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgb(59, 116, 221) 0%, rgba(0,212,255,1) 100%);
+  border-left: 3px solid rgb(212, 114, 68);
+  line-height: .10;
+}
+
+@media (max-width: 480px){
+  .cart{
+    line-height: .05;
+    height: 30%;
+  }
+  .cart h3{
+    font-size: 18px;
+  }
+  .cart h5{
+    font-size: 16px;
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px){
+  .cart{
+    height: 38%;
+  }
+}
